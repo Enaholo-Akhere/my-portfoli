@@ -1,0 +1,135 @@
+.show_explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: transparent;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+.hide_explore {
+  display: none;
+}
+.left_down {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* .online_support_explore {
+  color: white;
+  margin-top: -45px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+} */
+/* 
+.online_support_icon {
+  font-size: 30px;
+} */
+
+.click_explore {
+  margin-top: 10px;
+}
+
+.click_explore p {
+  animation-name: clickme;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  font-size: 14px;
+}
+
+/* .arrowup {
+  cursor: pointer;
+} */
+
+@keyframes clickme {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    margin-bottom: -5px;
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    margin-bottom: 5px;
+  }
+}
+/* 
+.chatus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 0px;
+  background-color: transparent;
+}
+
+.chatus input,
+textarea {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+}
+
+.chatus h4 span:first-child {
+  margin-bottom: 0px;
+}
+
+.chatus h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+} */
+/* .chatus_constumer {
+  position: relative;
+  bottom: 70px;
+  transition: 0.5s all ease-in-out;
+}
+.chatus_constumer_hide {
+  position: relative;
+  bottom: -50px;
+  transition: 0.5s all ease-in-out;
+} 
+.chatus button {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: red;
+  color: white;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+/* .online_support_explore p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+  margin-top: 0;
+} */
+
+/* .show_icon {
+  cursor: pointer;
+} */
+@media screen and(max-width: 768px) {
+  .show_explore {
+    width: 100%;
+    margin: auto 0%;
+  }
+}

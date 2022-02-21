@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer div {
+  margin-right: 20px;
+  cursor: pointer;
+  align-content: center;
+}
+
+.footer div a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
